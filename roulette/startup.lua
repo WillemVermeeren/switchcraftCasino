@@ -23,7 +23,7 @@ wheelMonitor.setTextScale(0.5)
 
 local bettingMonitorWidth, bettingMonitorHeight = bettingMonitor.getSize()
 local wheelMonitorWidth, wheelMonitorHeight = wheelMonitor.getSize()
-local framerate = 20
+local framerate = 10
 -- payementblock settings
 local sensor = peripheral.find("manipulator")
 assert(sensor~=nil, "no entity scanner connected =[")
@@ -47,7 +47,7 @@ local bets = {}
 local balance = 0
 local winningNumber = nil
 -- network stuff
-local casinoNetwerk = peripheral.wrap("front")
+local casinoNetwerk = peripheral.find("modem")
 assert(casinoNetwerk~=nil, "no modem connected =[")
 casinoNetwerk.open(os.getComputerID())
 
