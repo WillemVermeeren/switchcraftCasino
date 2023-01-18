@@ -1,5 +1,5 @@
 function main()
-    local paymentBlock = {-1, 1.1, 5} --the block the player has to stand on to pay
+    local paymentBlock = {-1, 2.1, 4} --the block the player has to stand on to pay
     local tolorance = 0.5 --the distance the player is allowed to be to the center of the paymentblock to pay
 
     local decks = 6
