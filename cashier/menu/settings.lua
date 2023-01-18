@@ -1,0 +1,3 @@
+walletPrivateKey = ""
+walletAdress = ""
+
